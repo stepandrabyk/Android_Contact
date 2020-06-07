@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:padding="5dp">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/image_list_item"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerVertical="true"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/textName"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_below="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textLastName"
+
+        android:layout_margin="5dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_delete"
+        android:text="Видалити"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"></Button>
+
+</RelativeLayout>
